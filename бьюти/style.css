@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(224, 101, 101, 0.514);
+    color: rgb(219, 218, 218)
+}
+header{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+text-align: center;
+
+}
+hr{
+    margin-bottom: 5%;
+}
+header>a{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    flex-basis: 200px;
+    transition: 0.5s;
+}
+header>a:hover{
+    font-size: 2.2em;
+}
+
+img{
+    width: 100%;
+}
+
+}
+.el{ 
+
+    border-radius: 5px;
+    font-size: 1,5cm;
+    flex-grow: 1;
+}
+main{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blocks{
+    flex-basis: 300px;
+    margin: 1%;
+    background-color: rgba(156, 65, 126, 0.671);
+}
+
+main>div, main>a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+}
+#two{
+    text-align: center;
+}
+#trends{
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+   text-align: right; 
+   font-size: 80px;
+}
+#img1{
+
+    height: 1000px;
+    width: 600px;
+    align: left;
+}
+h1{ 
+    text-align: center;
+    font-size: 8vw;             /* index*/
+h1{                                           /* four*/
+
+}
